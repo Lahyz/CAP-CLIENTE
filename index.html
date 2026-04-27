@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOME | DESCRIÇÃO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">NOME<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#opiniones">Opiniones</a></li>
+        </ul>
+        <a href="tel:+34910234567" class="nav-phone">
+            <i data-lucide="phone"></i> CONTATO
+        </a>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-wrapper">
+            
+            <div class="hero-text">
+                <span class="top-badge">CONSTRUCTORA · ESPAÑA</span>
+                <h1>Su <span>villa de lujo</span> llave en mano, sin sorpresas.</h1>
+                <p>Presupuesto cerrado en 48h · Plazos garantizados por contrato · Garantía decenal incluida.</p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <i data-lucide="check-circle"></i>
+                        <span>+180 obras entregadas en toda España</span>
+                    </div>
+                    <div class="stat">
+                        <i data-lucide="star"></i>
+                        <span>98% de clientes satisfechos · 25 años de experiencia</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-form-container">
+                <div class="form-card">
+                    <h3>Reciba su presupuesto gratis</h3>
+                    <p>Respuesta en menos de 24h. Sin compromiso.</p>
+                    
+                    <form>
+                        <input type="text" placeholder="Nombre completo" required>
+                        <input type="tel" placeholder="Teléfono" required>
+                        <input type="email" placeholder="Email" required>
+                        <select>
+                            <option value="" disabled selected>Tipo de proyecto</option>
+                            <option>Villa de Lujo</option>
+                            <option>Reforma Integral</option>
+                            <option>Obra Nueva</option>
+                        </select>
+                        <button type="submit" class="btn-submit">
+                            Quiero mi presupuesto gratis <i data-lucide="arrow-right"></i>
+                        </button>
+                    </form>
+                    <div class="form-footer">
+                        <i data-lucide="lock"></i> Sus datos están protegidos. Nunca compartiremos su información.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="servicios" class="container services-grid">
+    <div class="service-item">
+        <i data-lucide="home"></i>
+        <h4>Villas de Lujo</h4>
+        <span>Proyectos exclusivos desde cero.</span>
+    </div>
+    <div class="service-item">
+        <i data-lucide="hammer"></i>
+        <h4>Reformas integrales</h4>
+        <span>Renovamos su espacio elevando su valor.</span>
+    </div>
+    <div class="service-item">
+        <i data-lucide="layout"></i>
+        <h4>Promociones y comercial</h4>
+        <span>Edificios y locales con rentabilidad asegurada.</span>
+    </div>
+</section>
+
+<section id="proyectos" class="process-section">
+    <div class="container">
+        <h2 class="section-title">Tu proyecto en <span>3 simples pasos</span></h2>
+        
+        <div class="steps-wrapper">
+            <div class="step">
+                <div class="step-number">01</div>
+                <h4>Presupuesto</h4>
+                <p>Analizamos tu idea y entregamos una valoración técnica cerrada en 48h.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">02</div>
+                <h4>Planificación</h4>
+                <p>Firma de contrato con plazos de entrega garantizados y licencias en orden.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">03</div>
+                <h4>Construcción</h4>
+                <p>Ejecución con reportes semanales y entrega de llaves final sin retrasos.</p>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 60px;">
+             <a href="#" class="nav-phone" style="display: inline-flex; width: auto; padding: 20px 40px;"> 
+                EMPEZAR MI PROYECTO AHORA 
+             </a>
+        </div>
+    </div>
+</section>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
