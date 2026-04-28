@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOME | DESCRIÇÃO</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
@@ -13,111 +13,280 @@
     <nav class="navbar">
         <div class="logo">NOME<span>.</span></div>
         <ul class="nav-links">
-            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#empresa">La Empresa</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#opiniones">Opiniones</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#opiniones">Testimonios</a></li>
         </ul>
-        <a href="tel:+34910234567" class="nav-phone">
-            <i data-lucide="phone"></i> CONTATO
+        <a href="captura.html" class="nav-phone">
+            PRESUPUESTO RÁPIDO
         </a>
     </nav>
 
     <header class="hero">
-        <div class="hero-overlay"></div>
-        <div class="container hero-wrapper">
+    <div class="hero-overlay"></div>
+    <div class="container hero-wrapper-centered">
+        <div class="hero-text-full">
+            <span class="top-badge">CONSTRUCTORA · ESPAÑA</span>
+            <h1>Su <span>villa de lujo</span> llave en mano, sin sorpresas.</h1>
+            <p>Presupuesto cerrado en 48h · Plazos garantizados por contrato · Garantía decenal incluida.</p>
             
-            <div class="hero-text">
-                <span class="top-badge">CONSTRUCTORA · ESPAÑA</span>
-                <h1>Su <span>villa de lujo</span> llave en mano, sin sorpresas.</h1>
-                <p>Presupuesto cerrado en 48h · Plazos garantizados por contrato · Garantía decenal incluida.</p>
-                
-                <div class="hero-stats">
-                    <div class="stat">
-                        <i data-lucide="check-circle"></i>
-                        <span>+180 obras entregadas en toda España</span>
-                    </div>
-                    <div class="stat">
-                        <i data-lucide="star"></i>
-                        <span>98% de clientes satisfechos · 25 años de experiencia</span>
-                    </div>
-                </div>
+            <div class="hero-stats-row">
+                <div class="stat"><i data-lucide="check-circle"></i> <span>+180 obras entregadas</span></div>
+                <div class="stat"><i data-lucide="star"></i> <span>25 años de experiencia</span></div>
             </div>
-
-            <div class="hero-form-container">
-                <div class="form-card">
-                    <h3>Reciba su presupuesto gratis</h3>
-                    <p>Respuesta en menos de 24h. Sin compromiso.</p>
-                    
-                    <form>
-                        <input type="text" placeholder="Nombre completo" required>
-                        <input type="tel" placeholder="Teléfono" required>
-                        <input type="email" placeholder="Email" required>
-                        <select>
-                            <option value="" disabled selected>Tipo de proyecto</option>
-                            <option>Villa de Lujo</option>
-                            <option>Reforma Integral</option>
-                            <option>Obra Nueva</option>
-                        </select>
-                        <button type="submit" class="btn-submit">
-                            Quiero mi presupuesto gratis <i data-lucide="arrow-right"></i>
-                        </button>
-                    </form>
-                    <div class="form-footer">
-                        <i data-lucide="lock"></i> Sus datos están protegidos. Nunca compartiremos su información.
-                    </div>
-                </div>
-            </div>
-
+            
+            <a href="#contacto" class="btn-primary-large">HABLAR DE MI PROYECTO</a>
         </div>
-    </header>
+    </div>
+</header>
 
-    <section id="servicios" class="container services-grid">
-    <div class="service-item">
-        <i data-lucide="home"></i>
-        <h4>Villas de Lujo</h4>
-        <span>Proyectos exclusivos desde cero.</span>
-    </div>
-    <div class="service-item">
-        <i data-lucide="hammer"></i>
-        <h4>Reformas integrales</h4>
-        <span>Renovamos su espacio elevando su valor.</span>
-    </div>
-    <div class="service-item">
-        <i data-lucide="layout"></i>
-        <h4>Promociones y comercial</h4>
-        <span>Edificios y locales con rentabilidad asegurada.</span>
+    <section id="empresa" class="about-section section-padding">
+    <div class="container about-grid">
+        
+        <div class="about-image-container">
+            <img src="https://images.unsplash.com/photo-1503387762-592dea58ef23?q=80&w=1920" alt="Ingeniería Contemporánea" class="about-img">
+            <div class="experience-card">
+                <h3>Desde 2020</h3>
+                <p>edificando con materiales nobles y oficio artesanal.</p>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <span class="about-subtitle">QUIÉNES SOMOS</span>
+            <h2 class="serif-title">Tradición ibérica, ingeniería contemporánea.</h2>
+            
+            <p class="about-description">
+                Solera Construcciones nació en Andalucía con la convicción de que cada edificio debe respetar el paisaje, el clima y la cultura de su lugar. Combinamos técnicas mediterráneas heredadas de generaciones con procesos BIM, eficiencia energética y materiales certificados.
+            </p>
+            
+            <p class="about-description">
+                Nuestro equipo multidisciplinar de arquitectos, ingenieros y maestros de obra acompaña cada proyecto desde el primer boceto hasta la entrega de llaves.
+            </p>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">6+</span>
+                    <span class="stat-label">Años de experiencia</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50</span>
+                    <span class="stat-label">Proyectos entregados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">10</span>
+                    <span class="stat-label">Provincias activas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-label">Clientes satisfechos</span>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
-<section id="proyectos" class="process-section">
+    <section id="empresa" class="container section-padding">
+        <div class="split-grid">
+            <div class="text-block">
+                <span class="accent-txt">Nuestra Esencia</span>
+                <h2 class="serif-title">Décadas construyendo <span>confianza</span>.</h2>
+                <p>texto sobre empresa</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="dark-bg section-padding">
+        <div class="container">
+            <h2 class="serif-title center">Proyectos <span>Destacados</span></h2>
+            <div class="portfolio-grid">
+                <div class="project-card" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070');">
+                    <div class="project-overlay">
+                        <h4>Villa Marbella</h4>
+                        <span>Residencial · 2023</span>
+                    </div>
+                </div>
+                <div class="project-card" style="background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070');">
+                    <div class="project-overlay">
+                        <h4>Finca Almería</h4>
+                        <span>Obra Nueva · 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="container section-padding">
+        <h2 class="serif-title center">Nuestras <span>Especialidades</span></h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <i data-lucide="home"></i>
+                <h4>Villas de Lujo</h4>
+                <span>Proyectos exclusivos llave en mano con acabados premium.</span>
+            </div>
+            <div class="service-item">
+                <i data-lucide="hammer"></i>
+                <h4>Reformas</h4>
+                <span>Renovaciones técnicas integrales que elevan el valor de su activo.</span>
+            </div>
+            <div class="service-item">
+                <i data-lucide="building-2"></i>
+                <h4>Comercial</h4>
+                <span>Edificios y locales diseñados para la máxima rentabilidad.</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="process-section section-padding">
+        <div class="container">
+            <h2 class="serif-title center">Su proyecto en <span>3 pasos</span></h2>
+            <div class="steps-wrapper">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h4>Estudio</h4>
+                    <p>Valoración técnica y presupuesto cerrado sin compromiso.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h4>Contrato</h4>
+                    <p>Firma de plazos garantizados y gestión de licencias.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h4>Obra</h4>
+                    <p>Construcción con reportes semanales hasta la entrega.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="opiniones" class="reviews-section">
     <div class="container">
-        <h2 class="section-title">Tu proyecto en <span>3 simples pasos</span></h2>
-        
-        <div class="steps-wrapper">
-            <div class="step">
-                <div class="step-number">01</div>
-                <h4>Presupuesto</h4>
-                <p>Analizamos tu idea y entregamos una valoración técnica cerrada en 48h.</p>
+        <span class="reviews-subtitle">OPINIONES REALES</span>
+        <h2 class="serif-title center">Más de 180 familias ya confiaron.</h2>
+
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="quote-icon">
+                    <i data-lucide="quote"></i>
+                </div>
+                <p class="review-text">
+                    "depoimento de cliente satisfeito falando sobre a qualidade do serviço, cumprimento de prazos e atenção aos detalhes. Ele destaca a experiência positiva com a empresa e recomenda seus serviços para quem busca excelência em construção."
+                </p>
+                <div class="review-author">
+                    <strong>nome cliente</strong>
+                    <span>local obra</span>
+                </div>
             </div>
-            <div class="step">
-                <div class="step-number">02</div>
-                <h4>Planificación</h4>
-                <p>Firma de contrato con plazos de entrega garantizados y licencias en orden.</p>
+
+            <div class="review-card">
+                <div class="quote-icon">
+                    <i data-lucide="quote"></i>
+                </div>
+                <p class="review-text">
+                    "depoimento de cliente satisfeito falando sobre a qualidade do serviço, cumprimento de prazos e atenção aos detalhes. Ele destaca a experiência positiva com a empresa e recomenda seus serviços para quem busca excelência em construção."
+                </p>
+                <div class="review-author">
+                    <<strong>nome cliente</strong>
+                    <span>local obra</span>
+                </div>
             </div>
-            <div class="step">
-                <div class="step-number">03</div>
-                <h4>Construcción</h4>
-                <p>Ejecución con reportes semanales y entrega de llaves final sin retrasos.</p>
+
+            <div class="review-card">
+                <div class="quote-icon">
+                    <i data-lucide="quote"></i>
+                </div>
+                <p class="review-text">
+                    "depoimento de cliente satisfeito falando sobre a qualidade do serviço, cumprimento de prazos e atenção aos detalhes. Ele destaca a experiência positiva com a empresa e recomenda seus serviços para quem busca excelência em construção."
+                </p>
+                <div class="review-author">
+                    <strong>nome cliente</strong>
+                    <span>local obra</span>
+                </div>
             </div>
-        </div>
-        
-        <div style="text-align: center; margin-top: 60px;">
-             <a href="#" class="nav-phone" style="display: inline-flex; width: auto; padding: 20px 40px;"> 
-                EMPEZAR MI PROYECTO AHORA 
-             </a>
         </div>
     </div>
 </section>
+
+<section id="contacto" class="contact-footer-section">
+    <div class="container contact-container">
+        
+        <div class="contact-info">
+            <span class="about-subtitle">HABLEMOS</span>
+            <h2 class="serif-title">¿Tiene un proyecto en mente?</h2>
+            <p class="about-description">Cuéntenos su idea y le entregaremos una primera propuesta gratuita con estimación de plazos y presupuesto.</p>
+            
+            <div class="info-item">
+                <i data-lucide="map-pin"></i>
+                <div>
+                    <strong>Oficina central</strong>
+                    <p>enderezo de la oficina</p>
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <i data-lucide="phone"></i>
+                <div>
+                    <strong>+34 600 000 000</strong>
+                    <p>Lun a Vie · 9:00 — 19:00</p>
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <i data-lucide="mail"></i>
+                <div>
+                    <strong>email@ejemplo.com</strong>
+                    <p>Respuesta en menos de 24h</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="final-form-box">
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>NOMBRE</label>
+                        <input type="text" placeholder="Su nombre">
+                    </div>
+                    <div class="form-group">
+                        <label>TELÉFONO</label>
+                        <input type="tel" placeholder="600 000 000">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>EMAIL</label>
+                    <input type="email" placeholder="email@ejemplo.com">
+                </div>
+                <div class="form-group">
+                    <label>TIPO DE PROYECTO</label>
+                    <select>
+                        <option>Villa residencial</option>
+                        <option>Reforma integral</option>
+                        <option>Proyecto comercial</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>CUÉNTENOS SU PROYECTO</label>
+                    <textarea rows="4" placeholder="Describa brevemente lo que necesita..."></textarea>
+                </div>
+                <button type="submit" class="btn-dark-submit">Enviar consulta <i data-lucide="arrow-right"></i></button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <footer class="main-footer">
+    <div class="logo">NOME<span>.</span></div>
+    
+    <div class="footer-info">
+        <p>© 2026 SOLERA CONSTRUCCIONES ESPAÑA. Todos los derechos reservados.</p>
+        
+        <p class="credits">
+            Diseño y Estrategia por <a rel="nofollow" href="seu-site.com" target="_blank">TZORI</a>
+        </p>
+    </div>
+</footer>
 
     <script>lucide.createIcons();</script>
 </body>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOME | DESCRIÇÃO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">NOME<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+        <a href="tel:+34910234567" class="nav-phone">
+            <i data-lucide="phone"></i> CONTATO
+        </a>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-wrapper">
+            
+            <div class="hero-text">
+                <span class="top-badge">CONSTRUCTORA · ESPAÑA</span>
+                <h1>Su <span>villa de lujo</span> llave en mano, sin sorpresas.</h1>
+                <p>Presupuesto cerrado en 48h · Plazos garantizados por contrato · Garantía decenal incluida.</p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <i data-lucide="check-circle"></i>
+                        <span>+180 obras entregadas en toda España</span>
+                    </div>
+                    <div class="stat">
+                        <i data-lucide="star"></i>
+                        <span>98% de clientes satisfechos · 25 años de experiencia</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-form-container">
+                <div class="form-card">
+                    <h3>Reciba su presupuesto gratis</h3>
+                    <p>Respuesta en menos de 24h. Sin compromiso.</p>
+                    
+                    <form>
+                        <input type="text" placeholder="Nombre completo" required>
+                        <input type="tel" placeholder="Teléfono" required>
+                        <input type="email" placeholder="Email" required>
+                        <select>
+                            <option value="" disabled selected>Tipo de proyecto</option>
+                            <option>Villa de Lujo</option>
+                            <option>Reforma Integral</option>
+                            <option>Obra Nueva</option>
+                        </select>
+                        <button type="submit" class="btn-submit">
+                            Quiero mi presupuesto gratis <i data-lucide="arrow-right"></i>
+                        </button>
+                    </form>
+                    <div class="form-footer">
+                        <i data-lucide="lock"></i> Sus datos están protegidos. Nunca compartiremos su información.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>    
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
